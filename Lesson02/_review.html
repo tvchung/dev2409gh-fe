@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Các thẻ HTML5 cơ bản</title>
+</head>
+<body>
+    <h1>Các thẻ HTML5 cơ bản</h1>
+    <pre>
+        Các thẻ tiêu đề: h1, ... h6 (font-size giảm dần)
+    </pre>
+    <hr>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellendus labore totam magni corrupti enim odio minus nisi nihil maxime! Mollitia, provident eveniet! Expedita, saepe quisquam repellendus deserunt nobis dolorum.
+    </p>
+    <hr>
+    <p style="color:blue">
+        <b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit. 
+        <br>
+        <u>Corporis</u>, fuga! Omnis sapiente distinctio delectus enim dolores voluptas veniam? <br>
+        <i style="color:red">Aperiam</i> atque minus necessitatibus animi id rem officia exercitationem cumque quo laborum?
+    </p>
+    <div>
+       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laborum eveniet fugit corrupti necessitatibus reiciendis possimus quia earum quos perspiciatis aut nostrum culpa, animi consectetur, numquam itaque. Ea, temporibus iure.</p>
+    </div>
+    <hr>
+    <div>
+        <img src="https://devmaster.edu.vn/images/logo.png" 
+            alt="Devmaster Academy">
+        <hr>
+        <img src="images/iimg1.png" alt="Thực tập chuyên đề" width="100%">
+    </div>
+    <hr>
+    <div>
+        <h2>Liên kết site</h2>
+        <p>Liên kết tuyệt đôi:
+            <a href="https://devmaster.edu.vn/" title="Devmaster Academy" target="_blank">
+                Devmaster Academy
+            </a>
+        </p>
+        <p>
+            Liên kết nôi:
+            <a href="index.html" title="Trang chủ"> Trang chủ</a>
+        </p>
+        <p>
+            Liên kết sử dụng hình ảnh
+            <a href="https://devmaster.edu.vn" title="" target="_blank">
+                <img src="https://devmaster.edu.vn/images/logo.png" 
+                        alt="Devmaster Academy">
+            </a>
+        </p>
+    </div>
+    <div>
+        <h3>Danh sách có thứ tự</h3>
+        <ol>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+            <li>JQuery</li>
+            <li>Bootstrap</li>
+            <li>Cắt/ghép giao diện web</li>
+        </ol>
+        <hr>
+        <h3>Danh sách không có thứ tự</h3>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+            <li>JQuery</li>
+            <li>Bootstrap</li>
+            <li>Cắt/ghép giao diện web</li>
+        </ul>
+    </div>
+    <style>
+       .menu ul {
+            list-style: none;
+            width: 220px;
+            border: 1px solid #ddd;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li{
+            border-bottom: 1px solid #ddd;
+        }
+        .menu li a{
+            display: block;
+            padding: .5rem;
+            text-decoration: none;
+            background-color: #f3f3f3;
+            color: #1b1a1a;
+        }
+        .menu li a:hover{
+            background-color: #ddd;
+        }
+    </style>
+    <div class="menu">
+        <h3>Nội dung bài học</h3>
+        <ul>
+            <li><a href="#"> HTML5</a></li>
+            <li><a href="#"> CSS3</a></li>
+            <li><a href="#"> Javascript</a></li>
+            <li><a href="#"> JQuery</a></li>
+            <li><a href="#"> Bootstrap</a></li>
+            <li><a href="#"> Cắt/ghép giao diện web</a></li>
+        </ul>
+    </div>
+</body>
+</html>
